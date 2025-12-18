@@ -1,10 +1,9 @@
-## 🍽️ Meetdan Backend
+# Meetdan Backend
 
 Meetdan은 단국대학교 학생들을 위한 과팅(미팅) 매칭 서비스입니다.  
 본 레포지토리는 Meetdan 서비스의 백엔드 서버를 담당하며,  
 Spring Boot 기반 REST API를 제공합니다.
 
-<br>
 
 ## 📌 Project Overview
 
