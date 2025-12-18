@@ -82,7 +82,7 @@ Meetdan
  │       └─ test
  │
  └─ README.md
-
+```
 
 ## ⚙️ Key Features & Technical Decisions
 
