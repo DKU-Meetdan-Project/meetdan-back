@@ -1,37 +1,57 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+# 특정 파일 제외
+#src/main/resources/application-*.yml
+src/main/resources/application.yml
+src/test/resources/application.yml
+#src/test/resources/application-*.yml
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# 환경 변수
+.env
+.env.*
+
+# Firebase 서비스 계정 키
+config/firebase-service-account.json
+**/firebase-service-account.json
+**/*firebase-adminsdk*.json
+
+### Gradle ###
+.gradle/
+build/
+postgres_data/
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.utils
+pom.xml.v
+release.properties
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
 
 ### VS Code ###
 .vscode/
+
+### Eclipse ###
+.settings/
+.project
+.classpath
+.factorypath
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Log files ###
+*.log
+logs/
+
+### mysql ###
+mysql_data/
+
+bin/
+rabbitmq_data/
